@@ -1,0 +1,25 @@
+{
+  "name": "townstage-dev",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "getids": "~0.2.0",
+    "hyperscript": "~1.4.0",
+    "leaflet": "~0.7.2",
+    "moment": "~2.5.1",
+    "moment-range": "~1.0.0",
+    "spherical": "~0.0.0"
+  },
+  "dependencies" : {
+    "leaflet" : "",
+    "getids" : "",
+    "moment" : ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnny Honestly <mostmodernist@gmail.com> (http://johnnyscript.us/)",
+  "license": "BSD-2-Clause"
+}
