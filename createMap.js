@@ -23,7 +23,7 @@ module.exports = function(id, data){
     plotmark.data=data.details;
     map.addLayer(plotmark);
     plotmark.bindPopup("<h3>"+data.details.name+"</h3>");
-    plotlayers.push(plotmark);
+    plotLayers.push(plotmark);
 
   }
 

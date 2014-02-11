@@ -9,7 +9,16 @@
   </head>
   <body>
     <div id=map></div>
-    <div id=filters></div>
+    <div id=filters>
+      <select id="select">
+        <option value=today>today</option>
+        <option value=tomorrow>tomorrow</option>
+        <option value=thisWeek selected>this week</option>
+        <option value=nextWeek>nextWeek</option>
+        <option value=thisMonth>this month</option>
+        <option value=nextMonth>next month</option>
+      </select>
+    </div>
     <div id=list></div>
     <script type="text/javascript" src="bundle.js"></script>
   </body>

@@ -7,7 +7,8 @@ module.exports = function(events){ // events should be sorted already
     return html('li.event', 
       [ 
         html('img.stub', {src: stub + String(Math.random()).slice(2) + '?d=identicon'}),
-        html('a', {href: e.url}, e.headline)
+        html('a', {href: e.url}, e.headline),
+        html('p', e.starts_at)
       ])
   })
   return html('ul.events', list)

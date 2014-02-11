@@ -14,7 +14,8 @@
   "dependencies" : {
     "leaflet" : "",
     "getids" : "",
-    "moment" : ""
+    "sortof" : "",
+    "hyperscript" :""
   },
   "devDependencies": {},
   "scripts": {
